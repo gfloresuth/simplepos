@@ -1,0 +1,40 @@
+{
+  "name": "simplepos",
+  "version": "1.0.0",
+  "description": "Simple POS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "mocha":"latest",
+    "chai":"latest",
+    "sinon":"latest"
+  },
+  "dependencies":{
+    "express":"latest",
+    "body-parser":"latest",
+    "atpl":"latest",
+    "knex":"latest",
+    "bookshelf":"latest",
+    "mysql":"latest",
+    "redis": "latest",
+    "connect-redis": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfloresuth/simplepos.git"
+  },
+  "keywords": [
+    "simplepos",
+    "pos",
+    "nodejs"
+  ],
+  "author": "Gustavo Adolfo Flores González (@darkuskyo)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gfloresuth/simplepos/issues"
+  },
+  "homepage": "https://github.com/gfloresuth/simplepos#readme"
+}
