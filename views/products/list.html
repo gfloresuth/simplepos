@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+{% block title%}Product List{% endblock %}
+{%block menu%}
+{%endblock%}
+{% block body%}
+        <h1>Product List</h1>
+        {% if products is defined %}
+            <table class="w3-table">
+                <tr class="w3-blue">
+                    <th>ID</th>
+                    <th>NAME</th>
+                    <th>PRICE</th>
+                </tr>
+                {% for product in products %}
+                <tr>
+                    <td>{{product.id}}</td>
+                    <td><a href="/products/{{product.id}}">{{product.name}}</a></td>
+                    <td>{{product.price}}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        {% endif %}
+{% endblock %}

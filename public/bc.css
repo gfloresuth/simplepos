@@ -1,0 +1,9 @@
+@font-face {
+    font-family: bcFont;
+    src: url(/fonts/barcode.ttf);
+}
+
+.bcFont {
+    font-family: bcFont;
+    font-size: 48pt;
+}
